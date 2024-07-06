@@ -1,9 +1,9 @@
 {
-  "name": "user-app",
+  "name": "merchant-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,12 +12,10 @@
     "@repo/database": "*",
     "@repo/store": "*",
     "@repo/ui": "*",
-    "bcrypt": "^5.1.1",
-    "next": "^14.1.1",
     "next-auth": "^4.24.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "recoil": "^0.7.7"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "^14.1.1"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.1.1",
